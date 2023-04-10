@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rucommerce-db" />
+        <module name="rucommerce-core" />
+        <module name="rucommerce-app" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="rucommerce" options="" />
+      <module name="rucommerce-app" options="-parameters" />
+      <module name="rucommerce-core" options="-parameters" />
+      <module name="rucommerce-db" options="-parameters" />
+    </option>
+  </component>
+</project>
