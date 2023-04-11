@@ -7,7 +7,6 @@
 		<module>rucommerce-app</module>
         <module>rucommerce-core</module>
 		<module>rucommerce-db</module>
-		<module>rucommerce-db</module>
 		<module>rucommerce-core</module>
 	</modules>
     <parent>
